@@ -1,0 +1,923 @@
+[
+    {
+        "id": 1,
+        "tema": "Solo Leveling",
+        "image": "Fundo_SoloLeveling.jpeg",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Qual é o nome do protagonista de Solo Leveling?",
+                "option": [
+                    { "id": 1, "name": "Sung Jin-Woo", "alias": 0.5 },
+                    { "id": 2, "name": "Cha Hae-In", "alias": 0 },
+                    { "id": 3, "name": "Yoo Jin-Ho", "alias": 0 },
+                    { "id": 4, "name": "Woo Jin-Cheol", "alias": 0 }
+                ]
+            },
+            {
+                "id": 2,
+                "question": "Qual é a classificação inicial de Sung Jin-Woo como caçador?",
+                "option": [
+                    { "id": 1, "name": "Rank E", "alias": 0.5 },
+                    { "id": 2, "name": "Rank S", "alias": 0 },
+                    { "id": 3, "name": "Rank C", "alias": 0 },
+                    { "id": 4, "name": "Rank D", "alias": 0 }
+                ]
+            },
+            {
+                "id": 3,
+                "question": "Qual sistema concede a Sung Jin-Woo suas habilidades especiais?",
+                "option": [
+                    { "id": 1, "name": "O Sistema", "alias": 0.5 },
+                    { "id": 2, "name": "A Guilda", "alias": 0 },
+                    { "id": 3, "name": "A Monarquia", "alias": 0 },
+                    { "id": 4, "name": "O Governo", "alias": 0 }
+                ]
+            },
+            {
+                "id": 4,
+                "question": "Qual monstro foi o primeiro a ser 'sombreado' por Jin-Woo?",
+                "option": [
+                    { "id": 1, "name": "Igris", "alias": 0 },
+                    { "id": 2, "name": "Beru", "alias": 0 },
+                    { "id": 3, "name": "Tank", "alias": 0 },
+                    { "id": 4, "name": "Um Cavaleiro", "alias": 0.5 }
+                ]
+            },
+            {
+                "id": 5,
+                "question": "Qual é o nome da guilda que Cha Hae-In pertence?",
+                "option": [
+                    { "id": 1, "name": "Ahjin", "alias": 0 },
+                    { "id": 2, "name": "Hunters", "alias": 0.5 },
+                    { "id": 3, "name": "Knight", "alias": 0 },
+                    { "id": 4, "name": "White Tiger", "alias": 0 }
+                ]
+            },
+            {
+                "id": 6,
+                "question": "Qual é a habilidade mais marcante de Sung Jin-Woo?",
+                "option": [
+                    { "id": 1, "name": "Manipulação de Sombras", "alias": 0.5 },
+                    { "id": 2, "name": "Cura", "alias": 0 },
+                    { "id": 3, "name": "Teleporte", "alias": 0 },
+                    { "id": 4, "name": "Explosão de Mana", "alias": 0 }
+                ]
+            },
+            {
+                "id": 7,
+                "question": "Quem é o melhor amigo de Sung Jin-Woo no início da série?",
+                "option": [
+                    { "id": 1, "name": "Yoo Jin-Ho", "alias": 0.5 },
+                    { "id": 2, "name": "Woo Jin-Cheol", "alias": 0 },
+                    { "id": 3, "name": "Joo Hee", "alias": 0 },
+                    { "id": 4, "name": "Cha Hae-In", "alias": 0 }
+                ]
+            },
+            {
+                "id": 8,
+                "question": "Qual é o objetivo principal de Sung Jin-Woo ao se tornar mais forte?",
+                "option": [
+                    { "id": 1, "name": "Vingança", "alias": 0 },
+                    { "id": 2, "name": "Proteger sua família", "alias": 0.5 },
+                    { "id": 3, "name": "Conquistar o mundo", "alias": 0 },
+                    { "id": 4, "name": "Se tornar um Rei", "alias": 0 }
+                ]
+            },
+            {
+                "id": 9,
+                "question": "Qual é o nome do caçador Rank S que se especializa em magia de água?",
+                "option": [
+                    { "id": 1, "name": "Choi Jong-In", "alias": 0 },
+                    { "id": 2, "name": "Liu Zhigang", "alias": 0 },
+                    { "id": 3, "name": "Seo Jiwoo", "alias": 0.5 },
+                    { "id": 4, "name": "Thomas Andre", "alias": 0 }
+                ]
+            },
+            {
+                "id": 10,
+                "question": "Onde os portais para as masmorras geralmente aparecem?",
+                "option": [
+                    { "id": 1, "name": "No céu", "alias": 0 },
+                    { "id": 2, "name": "Em qualquer lugar", "alias": 0.5 },
+                    { "id": 3, "name": "Em locais específicos", "alias": 0 },
+                    { "id": 4, "name": "No metro", "alias": 0 }
+                ]
+            }
+        ],
+        "results": {
+            "0": "Você é um caçador Rank E, mude de profissão, por sua propria segurança.",
+            "1": "Você é um caçador Rank D, melhor atuar como minerador.",
+            "2": "Você é um caçador Rank C, treine mais para que sobreviva nas masmorras.",
+            "3": "Você é um caçador Rank B, já da para ganhar um dinheiro.",
+            "4": "Parabéns! Você é um caçador Rank A, todos lhe respeitarão.",
+            "5": "Parabéns!! Você é um caçador Rank S, monte sua Guilda e seja feliz."
+        }
+    },
+    {
+        "id": 2,
+        "tema": "Demon Slayer: Kimetsu no Yaiba",
+        "image": "Fundo_DemonSlayer.jpg",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Qual é o nome da irmã de Tanjiro Kamado, que se tornou um demônio?",
+                "option": [
+                    { "id": 1, "name": "Nezuko", "alias": 0.5 },
+                    { "id": 2, "name": "Kanao", "alias": 0 },
+                    { "id": 3, "name": "Shinobu", "alias": 0 },
+                    { "id": 4, "name": "Aoi", "alias": 0}
+                ]
+            },
+            {
+                "id": 2,
+                "question": "Qual é a organização de caçadores de demônios?",
+                "option": [
+                    { "id": 1, "name": "Corpo de Caçadores de Demônios", "alias": 0.5 },
+                    { "id": 2, "name": "Associação de Exorcistas", "alias": 0 },
+                    { "id": 3, "name": "Guarda Imperial", "alias": 0 },
+                    { "id": 4, "name": "Os 12 Kizukis", "alias": 0 }
+                ]
+            },
+            {
+                "id": 3,
+                "question": "Qual é o nome da técnica de respiração principal de Tanjiro?",
+                "option": [
+                    { "id": 1, "name": "Respiração da Água", "alias": 0.5 },
+                    { "id": 2, "name": "Respiração da Chama", "alias": 0 },
+                    { "id": 3, "name": "Respiração do Trovão", "alias": 0 },
+                    { "id": 4, "name": "Respiração da Besta", "alias": 0 }
+                ]
+            },
+            {
+                "id": 4,
+                "question": "Quem é o principal antagonista da série, o Rei dos Demônios?",
+                "option": [
+                    { "id": 1, "name": "Akaza", "alias": 0 },
+                    { "id": 2, "name": "Muzan Kibutsuji", "alias": 0.5 },
+                    { "id": 3, "name": "Doma", "alias": 0 },
+                    { "id": 4, "name": "Tamayo", "alias": 0 }
+                ]
+            },
+            {
+                "id": 5,
+                "question": "Qual é o nome do Hashira da Água?",
+                "option": [
+                    { "id": 1, "name": "Kyojuro Rengoku", "alias": 0 },
+                    { "id": 2, "name": "Giyu Tomioka", "alias": 0.5 },
+                    { "id": 3, "name": "Tengen Uzui", "alias": 0 },
+                    { "id": 4, "name": "Shinobu Kocho", "alias": 0 }
+                ]
+            },
+            {
+                "id": 6,
+                "question": "Qual é a cor da nichirin blade de Tanjiro no início?",
+                "option": [
+                    { "id": 1, "name": "Azul", "alias": 0 },
+                    { "id": 2, "name": "Vermelho", "alias": 0 },
+                    { "id": 3, "name": "Preto", "alias": 0.5 },
+                    { "id": 4, "name": "Verde", "alias": 0 }
+                ]
+            },
+            {
+                "id": 7,
+                "question": "Quem é o Hashira do Som?",
+                "option": [
+                    { "id": 1, "name": "Muichiro Tokito", "alias": 0 },
+                    { "id": 2, "name": "Obanai Iguro", "alias": 0 },
+                    { "id": 3, "name": "Tengen Uzui", "alias": 0.5 },
+                    { "id": 4, "name": "Shinobu Kocho", "alias": 0 }
+                ]
+            },
+            {
+                "id": 8,
+                "question": "Qual é o nome do companheiro javali de Tanjiro e Zenitsu?",
+                "option": [
+                    { "id": 1, "name": "Inosuke Hashibira", "alias": 0.5 },
+                    { "id": 2, "name": "Genya Shinazugawa", "alias": 0 },
+                    { "id": 3, "name": "Murata", "alias": 0 },
+                    { "id": 4, "name": "Sakonji Urokodaki", "alias": 0 }
+                ]
+            },
+            {
+                "id": 9,
+                "question": "Qual é a forma final da técnica de respiração da Nezuko?",
+                "option": [
+                    { "id": 1, "name": "Explosão de Sangue", "alias": 0.5 },
+                    { "id": 2, "name": "Chamas do Inferno", "alias": 0 },
+                    { "id": 3, "name": "Mordida Demoníaca", "alias": 0 },
+                    { "id": 4, "name": "Explosão do Inferno", "alias": 0 }
+                ]
+            },
+            {
+                "id": 10,
+                "question": "Qual é o nome da garota que usa a respiração da flor?",
+                "option": [
+                    { "id": 1, "name": "Aoi Kanzaki", "alias": 0 },
+                    { "id": 2, "name": "Kanao Tsuyuri", "alias": 0.5 },
+                    { "id": 3, "name": "Tamayo", "alias": 0 },
+                    { "id": 4, "name": "Mitsuri Kanroji", "alias": 0 }
+                ]
+            }
+        ],
+        "results": {
+            "0": "Você é um  Mizunoto, melhor desister e ser um ferreiro",
+            "1": "Você é um Kanoto, melhor voltar ao treinamento basico",
+            "2": "Você é um Tsuchinoto, precisa treinar mais.",
+            "3": "Você é um Hinoe, treine pois está no caminho certo.",
+            "4": "Parabéns! Você é um Kinoe, está proximo de ser um Hashira.",
+            "5": "Parabéns!! Você é um Hashira, os Onis lhe temerão."
+        }
+    },
+    {
+        "id": 3,
+        "tema": "Jujutsu Kaisen",
+        "image": "Fundo_JujutsoKaisen.jpg",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Qual é o nome do protagonista de Jujutsu Kaisen?",
+                "option": [
+                    { "id": 1, "name": "Yuji Itadori", "alias": 0.5 },
+                    { "id": 2, "name": "Megumi Fushiguro", "alias": 0 },
+                    { "id": 3, "name": "Nobara Kugisaki", "alias": 0 },
+                    { "id": 4, "name": "Satoru Gojo", "alias": 0 }
+                ]
+            },
+            {
+                "id": 2,
+                "question": "Qual é o nome do feiticeiro jujutsu mais forte da série?",
+                "option": [
+                    { "id": 1, "name": "Satoru Gojo", "alias": 0.5 },
+                    { "id": 2, "name": "Suguru Geto", "alias": 0 },
+                    { "id": 3, "name": "Yuki Tsukumo", "alias": 0 },
+                    { "id": 4, "name": "Aoi Todo", "alias": 0 }
+                ]
+            },
+            {
+                "id": 3,
+                "question": "Quem é o Rei das Maldições que habita o corpo de Yuji Itadori?",
+                "option": [
+                    { "id": 1, "name": "Mahito", "alias": 0 },
+                    { "id": 2, "name": "Sukuna", "alias": 0.5 },
+                    { "id": 3, "name": "Jogo", "alias": 0 },
+                    { "id": 4, "name": "Suguru", "alias": 0 }
+                ]
+            },
+            {
+                "id": 4,
+                "question": "Qual é a escola de Jujutsu onde Yuji e seus amigos estudam?",
+                "option": [
+                    { "id": 1, "name": "Escola Jujutsu de Tóquio", "alias": 0.5 },
+                    { "id": 2, "name": "Escola Jujutsu de Quioto", "alias": 0 },
+                    { "id": 3, "name": "Academia de Feiticeiros", "alias": 0 },
+                    { "id": 4, "name": "Academia Jujutso de Tóquio", "alias": 0 }
+                ]
+            },
+            {
+                "id": 5,
+                "question": "Qual é a arma de Nobara Kugisaki?",
+                "option": [
+                    { "id": 1, "name": "Martelo e pregos", "alias": 0.5 },
+                    { "id": 2, "name": "Espada", "alias": 0 },
+                    { "id": 3, "name": "Fio de energia amaldiçoada", "alias": 0 },
+                    { "id": 4, "name": "Bastão de 3 seções", "alias": 0 }
+                ]
+            },
+            {
+                "id": 6,
+                "question": "Qual é o nome da técnica amaldiçoada de Megumi Fushiguro?",
+                "option": [
+                    { "id": 1, "name": "Técnica das Dez Sombras", "alias": 0.5 },
+                    { "id": 2, "name": "Técnica do Espírito Amaldiçoado", "alias": 0 },
+                    { "id": 3, "name": "Técnica de Projeção", "alias": 0 },
+                    { "id": 4, "name": "Técnica do Punho Divergente", "alias": 0 }
+                ]
+            },
+            {
+                "id": 7,
+                "question": "Quem é o feiticeiro cego que serve como professor?",
+                "option": [
+                    { "id": 1, "name": "Panda", "alias": 0 },
+                    { "id": 2, "name": "Maki Zenin", "alias": 0 },
+                    { "id": 3, "name": "Satoru Gojo", "alias": 0.5 },
+                    { "id": 4, "name": "Noritoshi Kamo", "alias": 0 }
+
+                ]
+            },
+            {
+                "id": 8,
+                "question": "Qual é o nome da maldição que pode transfigurar almas?",
+                "option": [
+                    { "id": 1, "name": "Jogo", "alias": 0 },
+                    { "id": 2, "name": "Hanami", "alias": 0 },
+                    { "id": 3, "name": "Mahito", "alias": 0.5 },
+                    { "id": 4, "name": "Sukuna", "alias": 0}
+                ]
+            },
+            {
+                "id": 9,
+                "question": "Qual é o nome da ferramenta amaldiçoada favorita de Aoi Todo?",
+                "option": [
+                    { "id": 1, "name": "Boogie Woogie", "alias": 0.5 },
+                    { "id": 2, "name": "Punho Divergente", "alias": 0 },
+                    { "id": 3, "name": "Corte de Chamas", "alias": 0 },
+                    { "id": 4, "name": "Lâmina Negra", "alias": 0 }
+                ]
+            },
+            {
+                "id": 10,
+                "question": "Qual evento crucial ocorre durante o arco de Shibuya?",
+                "option": [
+                    { "id": 1, "name": "O selamento de Gojo", "alias": 0.5 },
+                    { "id": 2, "name": "A morte de Itadori", "alias": 0 },
+                    { "id": 3, "name": "A destruição da escola", "alias": 0 },
+                    { "id": 4, "name": "O jogo do abate", "alias": 0 }
+                ]
+            }
+        ],
+        "results": {
+            "0": "Você é um fenticeiro classe 4, desista pois não tem chance.",
+            "1": "Você é um fenticeiro classe 3, precisa se esforçar mais.",
+            "2": "Você é um fenticeiro classe 2, está no caminho certo.",
+            "3": "Você é um fenticeiro classe 1, com mais treinamento chega lá.",
+            "4": "Parabéns! Você é um fenticeiro classe Especial 1, está quase lá.",
+            "5": "Parabéns!! Você é um fenticeiro classe Especial, Satoru Gojo ficaria orgulhoso."
+        }
+    },
+    {
+        "id": 4,
+        "tema": "Frieren e a Jornada para o Além (Sousou no Frieren)",
+        "image": "Fundo_SousouFrieren.jpg",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Qual é a raça da protagonista Frieren?",
+                "option": [
+                    { "id": 1, "name": "Humana", "alias": 0 },
+                    { "id": 2, "name": "Elfa", "alias": 0.5 },
+                    { "id": 3, "name": "Anã", "alias": 0 },
+                    { "id": 4, "name": "Fada", "alias": 0}
+                ]
+            },
+            {
+                "id": 2,
+                "question": "Por que Frieren embarca em uma nova jornada após a morte de Himmel?",
+                "option": [
+                    { "id": 1, "name": "Para encontrar um novo demônio", "alias": 0 },
+                    { "id": 2, "name": "Para entender os sentimentos humanos", "alias": 0.5 },
+                    { "id": 3, "name": "Para coletar novos feitiços", "alias": 0 },
+                    { "id": 4, "name": "Para arrecadar dinheiro", "alias": 0}
+                ]
+            },
+            {
+                "id": 3,
+                "question": "Quem é a aprendiz de Frieren, uma jovem maga?",
+                "option": [
+                    { "id": 1, "name": "Stark", "alias": 0 },
+                    { "id": 2, "name": "Fern", "alias": 0.5 },
+                    { "id": 3, "name": "Eisen", "alias": 0 },
+                    { "id": 4, "name": "Flamme", "alias": 0 }
+                ]
+            },
+            {
+                "id": 4,
+                "question": "Qual era a especialidade de Frieren como maga na equipe do herói?",
+                "option": [
+                    { "id": 1, "name": "Magia de Ataque", "alias": 0 },
+                    { "id": 2, "name": "Magia de Suporte", "alias": 0 },
+                    { "id": 3, "name": "Magia de Detecção e Purificação de Demônios", "alias": 0.5 },
+                    { "id": 4, "name": "Magia de Defesa", "alias": 0}
+                ]
+            },
+            {
+                "id": 5,
+                "question": "Qual é o nome do guerreiro anão que acompanhou Frieren e Himmel?",
+                "option": [
+                    { "id": 1, "name": "Stark", "alias": 0 },
+                    { "id": 2, "name": "Eisen", "alias": 0.5 },
+                    { "id": 3, "name": "Himmel", "alias": 0 },
+                    { "id": 4, "name": "Heiter", "alias": 0}
+                ]
+            },
+            {
+                "id": 6,
+                "question": "Quanto tempo Frieren e seus companheiros levaram para derrotar o Rei Demônio?",
+                "option": [
+                    { "id": 1, "name": "10 anos", "alias": 0.5 },
+                    { "id": 2, "name": "50 anos", "alias": 0 },
+                    { "id": 3, "name": "1 ano", "alias": 0 },
+                    { "id": 4, "name": "20 anos", "alias": 0 }
+                ]
+            },
+            {
+                "id": 7,
+                "question": "Qual é o passatempo favorito de Frieren?",
+                "option": [
+                    { "id": 1, "name": "Coletar feitiços estranhos", "alias": 0.5 },
+                    { "id": 2, "name": "Treinar combate", "alias": 0 },
+                    { "id": 3, "name": "Cozinhar", "alias": 0 },
+                    { "id": 4, "name": "Colher flores", "alias": 0 }
+                ]
+            },
+            {
+                "id": 8,
+                "question": "Quem é o jovem guerreiro que se junta a Frieren e Fern na jornada?",
+                "option": [
+                    { "id": 1, "name": "Stark", "alias": 0.5 },
+                    { "id": 2, "name": "Flamme", "alias": 0 },
+                    { "id": 3, "name": "Sein", "alias": 0 },
+                    { "id": 4, "name": "Himmel", "alias": 0 }
+                ]
+            },
+            {
+                "id": 9,
+                "question": "Qual é o nome do ritual que permite a Frieren se comunicar com os mortos?",
+                "option": [
+                    { "id": 1, "name": "Oração de Despedida", "alias": 0.5 },
+                    { "id": 2, "name": "Feitiço da Memória", "alias": 0 },
+                    { "id": 3, "name": "Telepatia Espiritual", "alias": 0 },
+                    { "id": 4, "name": "Oração dos Mortos", "alias": 0}
+                ]
+            },
+            {
+                "id": 10,
+                "question": "Qual é a cidade final que Frieren e seus companheiros almejam visitar em sua jornada?",
+                "option": [
+                    { "id": 1, "name": "Aureole", "alias": 0.5 },
+                    { "id": 2, "name": "Capital Real", "alias": 0 },
+                    { "id": 3, "name": "Olaria", "alias": 0 },
+                    { "id": 4, "name": "Eiseberg", "alias": 0 }
+                ]
+            }
+        ],
+        "results": {
+            "0": "você se quer tem mana, desista desta jornada.",
+            "1": "Você é um mago iniciante, treine bastante este da jornada.",
+            "2": "Você é um mago de quarta classe, sua jornada será perigosa.",
+            "3": "Você é um mago de terceira classe, sua jornada será uma aventura.",
+            "4": "Parabéns! Você é um mago de segunda classe, sua jornada será grandiosa.",
+            "5": "Parabéns!! Você é um mago de primeira classe, sua jornada será facil."
+        }
+    },
+    {
+        "id": 5,
+        "tema": "Kaiju No. 8",
+        "image": "Fundo_Kaijuno8.jpg",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Qual é o nome do protagonista que se transforma em um Kaiju?",
+                "option": [
+                    { "id": 1, "name": "Kafka Hibino", "alias": 0.5 },
+                    { "id": 2, "name": "Reno Ichikawa", "alias": 0 },
+                    { "id": 3, "name": "Mina Ashiro", "alias": 0 },
+                    { "id": 4, "name": "Soshiro Hoshina", "alias": 0 }
+                ]
+            },
+            {
+                "id": 2,
+                "question": "Qual é o trabalho inicial de Kafka Hibino?",
+                "option": [
+                    { "id": 1, "name": "Membro da Força de Defesa", "alias": 0 },
+                    { "id": 2, "name": "Limpador de Kaiju", "alias": 0.5 },
+                    { "id": 3, "name": "Cozinheiro", "alias": 0 },
+                    { "id": 4, "name": "Capitão da Terceira Divisão", "alias": 0 }
+                ]
+            },
+            {
+                "id": 3,
+                "question": "Qual é o nome do Kaiju que entra no corpo de Kafka?",
+                "option": [
+                    { "id": 1, "name": "Kaiju No. 8", "alias": 0.5 },
+                    { "id": 2, "name": "Kaiju Alpha", "alias": 0 },
+                    { "id": 3, "name": "Kaiju Beta", "alias": 0 },
+                    { "id": 4, "name": "Kaiju No. 9", "alias": 0 }
+                ]
+            },
+            {
+                "id": 4,
+                "question": "Qual é o sonho de infância de Kafka e Mina Ashiro?",
+                "option": [
+                    { "id": 1, "name": "Se tornarem membros da Força de Defesa", "alias": 0.5 },
+                    { "id": 2, "name": "Abrir um restaurante", "alias": 0 },
+                    { "id": 3, "name": "Viajar pelo mundo", "alias": 0 },
+                    { "id": 4, "name": "Se casar", "alias": 0 }
+                ]
+            },
+            {
+                "id": 5,
+                "question": "Quem é o novo colega de Kafka que o incentiva a tentar a Força de Defesa novamente?",
+                "option": [
+                    { "id": 1, "name": "Kikoru Shinomiya", "alias": 0 },
+                    { "id": 2, "name": "Soshiro Hoshina", "alias": 0 },
+                    { "id": 3, "name": "Reno Ichikawa", "alias": 0.5 },
+                    { "id": 4, "name": "Gen Narumi", "alias": 0 }
+                ]
+            },
+            {
+                "id": 6,
+                "question": "Qual é a habilidade principal da Capitã Mina Ashiro?",
+                "option": [
+                    { "id": 1, "name": "Força Bruta", "alias": 0 },
+                    { "id": 2, "name": "Tiro de Precisão com Armas Pesadas", "alias": 0.5 },
+                    { "id": 3, "name": "Agilidade", "alias": 0 },
+                    { "id": 4, "name": "Transformar em Kaiju", "alias": 0 }
+                ]
+            },
+            {
+                "id": 7,
+                "question": "Qual é o ranking mais alto na Força de Defesa?",
+                "option": [
+                    { "id": 1, "name": "Capitão de Divisão", "alias": 0.5 },
+                    { "id": 2, "name": "Tenente", "alias": 0 },
+                    { "id": 3, "name": "Comandante", "alias": 0 },
+                    { "id": 4, "name": "Oficial de Divisão", "alias": 0 }
+                ]
+            },
+            {
+                "id": 8,
+                "question": "Qual é o nome da arma especializada usada para combater Kaijus?",
+                "option": [
+                    { "id": 1, "name": "Armas de Extermínio de Kaiju", "alias": 0.5 },
+                    { "id": 2, "name": "Espadas de Energia", "alias": 0 },
+                    { "id": 3, "name": "Canhões de Plasma", "alias": 0 },
+                    { "id": 4, "name": "Rifle de Extermínio", "alias": 0 }
+                ]
+            },
+            {
+                "id": 9,
+                "question": "Quem é o Vice-Capitão da Terceira Divisão?",
+                "option": [
+                    { "id": 1, "name": "Isao Shinomiya", "alias": 0 },
+                    { "id": 2, "name": "Soshiro Hoshina", "alias": 0.5 },
+                    { "id": 3, "name": "Kikoru Shinomiya", "alias": 0 },
+                    { "id": 4, "name": "Reno Ichikawa", "alias": 0 }
+                ]
+            },
+            {
+                "id": 10,
+                "question": "Qual é o principal perigo de Kafka se transformar em Kaiju No. 8?",
+                "option": [
+                    { "id": 1, "name": "Perder o controle e atacar humanos", "alias": 0.5 },
+                    { "id": 2, "name": "Ser detectado pela Força de Defesa", "alias": 0 },
+                    { "id": 3, "name": "Não conseguir voltar à forma humana", "alias": 0 },
+                    { "id": 4, "name": "Se aliar aos Kaijus", "alias": 0 }
+                ]
+            }
+        ],
+        "results": {
+            "0": "Você é um cadete, melhor voltar para a limpeza.",
+            "1": "Você é um oficial, precisa treinar mais.",
+            "2": "Você é um Yoju, treine e fortifiquese.",
+            "3": "Você é um Capitão, treine e suba de cargo.",
+            "4": "Parabéns! Você é um Honju, muito forte.",
+            "5": "Parabéns!! Você é um Dai-kaiju, seu poder é inigualavel."
+        }
+    },
+    {
+        "id": 6,
+        "tema": "One Piece",
+        "image": "Fundo_OnePiece.jpg",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Qual é o nome do capitão dos Piratas do Chapéu de Palha?",
+                "option": [
+                    { "id": 1, "name": "Roronoa Zoro", "alias": 0 },
+                    { "id": 2, "name": "Monkey D. Luffy", "alias": 0.5 },
+                    { "id": 3, "name": "Sanji", "alias": 0 },
+                    { "id": 4, "name": "Shanks", "alias": 0 }
+                ]
+            },
+            {
+                "id": 2,
+                "question": "Qual fruta do diabo Luffy comeu?",
+                "option": [
+                    { "id": 1, "name": "Gomu Gomu no Mi", "alias": 0.5 },
+                    { "id": 2, "name": "Mera Mera no Mi", "alias": 0 },
+                    { "id": 3, "name": "Hie Hie no Mi", "alias": 0 },
+                    { "id": 4, "name": "Horo Horo no Mi", "alias": 0 }
+                ]
+            },
+            {
+                "id": 3,
+                "question": "Quem é o espadachim dos Piratas do Chapéu de Palha?",
+                "option": [
+                    { "id": 1, "name": "Nami", "alias": 0 },
+                    { "id": 2, "name": "Usopp", "alias": 0 },
+                    { "id": 3, "name": "Roronoa Zoro", "alias": 0.5 },
+                    { "id": 4, "name": "Jinbe", "alias": 0 }
+                ]
+            },
+            {
+                "id": 4,
+                "question": "Qual é o objetivo final de Luffy?",
+                "option": [
+                    { "id": 1, "name": "Se tornar o Rei dos Piratas", "alias": 0.5 },
+                    { "id": 2, "name": "Encontrar a All Blue", "alias": 0 },
+                    { "id": 3, "name": "Desenhar o mapa do mundo", "alias": 0 },
+                    { "id": 4, "name": "Encontra o One Piece", "alias": 0 }
+                ]
+            },
+            {
+                "id": 5,
+                "question": "Qual é o nome da ilha onde a maioria dos piratas iniciam sua jornada na Grand Line?",
+                "option": [
+                    { "id": 1, "name": "Loguetown", "alias": 0 },
+                    { "id": 2, "name": "Reverse Mountain", "alias": 0.5 },
+                    { "id": 3, "name": "Ilha de Dawn", "alias": 0 },
+                    { "id": 4, "name": "Ilha Clockwork", "alias": 0 }
+                ]
+            },
+            {
+                "id": 6,
+                "question": "Quem é o cozinheiro dos Piratas do Chapéu de Palha?",
+                "option": [
+                    { "id": 1, "name": "Chopper", "alias": 0 },
+                    { "id": 2, "name": "Sanji", "alias": 0.5 },
+                    { "id": 3, "name": "Franky", "alias": 0 },
+                    { "id": 4, "name": "Usopp", "alias": 0 }
+                ]
+            },
+            {
+                "id": 7,
+                "question": "Qual é o nome do almirante da Marinha que usa a 'Kizaru' como alcunha?",
+                "option": [
+                    { "id": 1, "name": "Akainu", "alias": 0 },
+                    { "id": 2, "name": "Aokiji", "alias": 0 },
+                    { "id": 3, "name": "Borsalino (Kizaru)", "alias": 0.5 },
+                    { "id": 4, "name": "Monkey D. Garp", "alias": 0 }
+                ]
+            },
+            {
+                "id": 8,
+                "question": "Qual é a raça de Chopper?",
+                "option": [
+                    { "id": 1, "name": "Rena", "alias": 0.5 },
+                    { "id": 2, "name": "Humano", "alias": 0 },
+                    { "id": 3, "name": "Peixe-Homem", "alias": 0 },
+                    { "id": 4, "name": "Sereia", "alias": 0 }
+                ]
+            },
+            {
+                "id": 9,
+                "question": "Qual é o nome do barco dos Piratas do Chapéu de Palha antes do Thousand Sunny?",
+                "option": [
+                    { "id": 1, "name": "Going Merry", "alias": 0.5 },
+                    { "id": 2, "name": "Moby Dick", "alias": 0 },
+                    { "id": 3, "name": "Red Force", "alias": 0 },
+                    { "id": 4, "name": "Black Perola", "alias": 0 }
+                ]
+            },
+            {
+                "id": 10,
+                "question": "Quem é o arqueólogo da tripulação?",
+                "option": [
+                    { "id": 1, "name": "Robin", "alias": 0.5 },
+                    { "id": 2, "name": "Brook", "alias": 0 },
+                    { "id": 3, "name": "Franky", "alias": 0 },
+                    { "id": 4, "name": "Nico", "alias": 0 }
+                ]
+            }
+        ],
+        "results": {
+            "0": "Voçê é um recruta, melhor virar cozinheiro",
+            "1": "Você é um pirata, levantar velas.",
+            "2": "Você é um lider Pirata, seu navio o espera.",
+            "3": "Você é um Lord do Mar, seu mar suas vontades.",
+            "4": "Parabéns! Você é um Imperador, com isso poderar comandar o mundo.",
+            "5": "Parabéns!! Você é o Rei dos Paratas, so falta o One Piece."
+        }
+    },
+    {
+        "id": 7,
+        "tema": "Attack on Titan",
+        "image": "Fundo_AtackonTitan.jpg",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Qual é o nome do protagonista que se transforma em Titã?",
+                "option": [
+                    { "id": 1, "name": "Levi Ackerman", "alias": 0 },
+                    { "id": 2, "name": "Eren Yeager", "alias": 0.5 },
+                    { "id": 3, "name": "Armin Arlert", "alias": 0 },
+                    { "id": 4, "name": "Mikasa Acherman", "alias": 0 }
+                ]
+            },
+            {
+                "id": 2,
+                "question": "Qual é a cidade que é invadida no início da série?",
+                "option": [
+                    { "id": 1, "name": "Shiganshina", "alias": 0.5 },
+                    { "id": 2, "name": "Stohess", "alias": 0 },
+                    { "id": 3, "name": "Trost", "alias": 0 },
+                    { "id": 4, "name": "Krolva", "alias": 0 }
+                ]
+            },
+            {
+                "id": 3,
+                "question": "Qual é o nome da tropa de elite responsável por combater os Titãs?",
+                "option": [
+                    { "id": 1, "name": "Polícia Militar", "alias": 0 },
+                    { "id": 2, "name": "Tropa de Exploração", "alias": 0.5 },
+                    { "id": 3, "name": "Guarnição", "alias": 0 },
+                    { "id": 4, "name": "Tropa de Aot", "alias": 0 }
+                ]
+            },
+            {
+                "id": 4,
+                "question": "Qual é o ponto fraco dos Titãs?",
+                "option": [
+                    { "id": 1, "name": "A nuca", "alias": 0.5 },
+                    { "id": 2, "name": "O coração", "alias": 0 },
+                    { "id": 3, "name": "Os olhos", "alias": 0 },
+                    { "id": 4, "name": "Pescoço", "alias": 0 }
+                ]
+            },
+            {
+                "id": 5,
+                "question": "Quem é a garota que é secretamente um Titã Fêmea?",
+                "option": [
+                    { "id": 1, "name": "Mikasa Ackerman", "alias": 0 },
+                    { "id": 2, "name": "Sasha Braus", "alias": 0 },
+                    { "id": 3, "name": "Annie Leonhart", "alias": 0.5 },
+                    { "id": 4, "name": "Hange Zoe", "alias": 0 }
+                ]
+            },
+            {
+                "id": 6,
+                "question": "Qual é o nome do dispositivo que permite aos soldados se moverem em 3D?",
+                "option": [
+                    { "id": 1, "name": "Equipamento de Manobra Tridimensional", "alias": 0.5 },
+                    { "id": 2, "name": "Dispositivo de Voo", "alias": 0 },
+                    { "id": 3, "name": "Cinto de Gravidade", "alias": 0 },
+                    { "id": 4, "name": "rocket backpack", "alias": 0 }
+                ]
+            },
+            {
+                "id": 7,
+                "question": "Qual é o nome do comandante da Tropa de Exploração mais famoso por suas estratégias?",
+                "option": [
+                    { "id": 1, "name": "Hange Zoë", "alias": 0 },
+                    { "id": 2, "name": "Erwin Smith", "alias": 0.5 },
+                    { "id": 3, "name": "Dot Pixis", "alias": 0 },
+                    { "id": 4, "name": "Zeke Yeager", "alias": 0 }
+                ]
+            },
+            {
+                "id": 8,
+                "question": "Qual é o nome do Titã blindado?",
+                "option": [
+                    { "id": 1, "name": "Titã Colossal", "alias": 0 },
+                    { "id": 2, "name": "Titã Blindado", "alias": 0.5 },
+                    { "id": 3, "name": "Titã Bestial", "alias": 0 },
+                    { "id": 4, "name": "Titâ Colosal", "alias": 0 }
+                ]
+            },
+            {
+                "id": 9,
+                "question": "Qual é o nome da garota que tem uma força sobre-humana e é protetora de Eren?",
+                "option": [
+                    { "id": 1, "name": "Historia Reiss", "alias": 0 },
+                    { "id": 2, "name": "Mikasa Ackerman", "alias": 0.5 },
+                    { "id": 3, "name": "Ymir", "alias": 0 },
+                    { "id": 4, "name": "Petra Ral", "alias": 0 }
+                ]
+            },
+            {
+                "id": 10,
+                "question": "O que existe além das muralhas, que foi um grande mistério no início?",
+                "option": [
+                    { "id": 1, "name": "Outros Titãs", "alias": 0 },
+                    { "id": 2, "name": "Oceano e o mundo exterior", "alias": 0.5 },
+                    { "id": 3, "name": "Demônios", "alias": 0 },
+                    { "id": 4, "name": "Terra Desertica", "alias": 0 }
+                ]
+            }
+        ],
+        "results": {
+            "0": "Você só serve para comida de Titã",
+            "1": "Você é um Titã Carroceiro, melhor evitar as batalhas",
+            "2": "Você é um Titã Mandibula, precisa aumentar seu poder",
+            "3": "Você é um Titã Bestial, agora precisa domar sua furia.",
+            "4": "Parabéns! Você é um Titã de Ataque, os inimigos o temeram.",
+            "5": "Parabéns!! Você é um Titã Fundador, o mundo ao seus pés."
+        }
+    },
+    {
+        "id": 8,
+        "tema": "My Hero Academia",
+        "image": "Fundo_MyHeroAcademia.jpg",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Qual é o nome do protagonista de My Hero Academia?",
+                "option": [
+                    { "id": 1, "name": "Katsuki Bakugo", "alias": 0 },
+                    { "id": 2, "name": "Izuku Midoriya (Deku)", "alias": 0.5 },
+                    { "id": 3, "name": "Shoto Todoroki", "alias": 0 },
+                    { "id": 4, "name": "All Might", "alias": 0 }
+                ]
+            },
+            {
+                "id": 2,
+                "question": "Qual é o Quirk inicial de Izuku Midoriya?",
+                "option": [
+                    { "id": 1, "name": "One For All", "alias": 0 },
+                    { "id": 2, "name": "Nenhum (ele era Quirkless)", "alias": 0.5 },
+                    { "id": 3, "name": "Explosão", "alias": 0 },
+                    { "id": 4, "name": "Super Força", "alias": 0 }
+                ]
+            },
+            {
+                "id": 3,
+                "question": "Quem é o herói número 1 e mentor de Midoriya?",
+                "option": [
+                    { "id": 1, "name": "Eraser Head", "alias": 0 },
+                    { "id": 2, "name": "Endeavor", "alias": 0 },
+                    { "id": 3, "name": "All Might", "alias": 0.5 },
+                    { "id": 4, "name": "All For One", "alias": 0 }
+                ]
+            },
+            {
+                "id": 4,
+                "question": "Qual é o nome da escola de heróis onde Midoriya estuda?",
+                "option": [
+                    { "id": 1, "name": "U.A. High School", "alias": 0.5 },
+                    { "id": 2, "name": "Shiketsu High School", "alias": 0 },
+                    { "id": 3, "name": "Seijin Academy", "alias": 0 },
+                    { "id": 4, "name": "High School Academy", "alias": 0 }
+                ]
+            },
+            {
+                "id": 5,
+                "question": "Qual é o Quirk de Katsuki Bakugo?",
+                "option": [
+                    { "id": 1, "name": "Meio-Quente Meio-Frio", "alias": 0 },
+                    { "id": 2, "name": "Explosão", "alias": 0.5 },
+                    { "id": 3, "name": "Zero Gravidade", "alias": 0 },
+                    { "id": 4, "name": "One For All", "alias": 0 }
+                ]
+            },
+            {
+                "id": 6,
+                "question": "Quem é o vilão principal da Liga dos Vilões?",
+                "option": [
+                    { "id": 1, "name": "Stain", "alias": 0 },
+                    { "id": 2, "name": "Tomura Shigaraki", "alias": 0.5 },
+                    { "id": 3, "name": "Dabi", "alias": 0 },
+                    { "id": 4, "name": "Tsutsutaka", "alias": 0 }
+                ]
+            },
+            {
+                "id": 7,
+                "question": "Qual é o Quirk de Shoto Todoroki?",
+                "option": [
+                    { "id": 1, "name": "Flames", "alias": 0 },
+                    { "id": 2, "name": "Ice", "alias": 0 },
+                    { "id": 3, "name": "Meio-Quente Meio-Frio", "alias": 0.5 },
+                    { "id": 4, "name": "Zero Gravidade", "alias": 0 }
+                ]
+            },
+            {
+                "id": 8,
+                "question": "Qual é o nome da garota que pode anular Quirks ao tocá-los?",
+                "option": [
+                    { "id": 1, "name": "Tsuyu Asui", "alias": 0 },
+                    { "id": 2, "name": "Ochaco Uraraka", "alias": 0 },
+                    { "id": 3, "name": "Eri", "alias": 0.5 },
+                    { "id": 4, "name": "Kinoko Komori", "alias": 0 }
+                ]
+            },
+            {
+                "id": 9,
+                "question": "Qual é a peculiaridade do professor de classe 1-A, Shota Aizawa?",
+                "option": [
+                    { "id": 1, "name": "Apagamento", "alias": 0.5 },
+                    { "id": 2, "name": "Criação", "alias": 0 },
+                    { "id": 3, "name": "Engolir objetos", "alias": 0 },
+                    { "id": 4, "name": "One For All", "alias": 0 }
+                ]
+            },
+            {
+                "id": 10,
+                "question": "Qual é o nome da agência de heróis onde Midoriya faz seu primeiro estágio?",
+                "option": [
+                    { "id": 1, "name": "Nighteye Agency", "alias": 0.5 },
+                    { "id": 2, "name": "Endeavor Agency", "alias": 0 },
+                    { "id": 3, "name": "Hawks Agency", "alias": 0 },
+                    { "id": 4, "name": "Hero for Agency", "alias": 0 }
+                ]
+            }
+        ],
+        "results": {
+            "0": "Você é um Quirkless, melhor escolher outro trabalho menos perigoso.",
+            "1": "Seu Quirk é Eraser Head, você pode se tornar um heroi",
+            "2": "Seu Quirk é Explosão, ainda dá para explodir alguns vilões",
+            "3": "Seu Quirk é Overhaul, o que o torna o Heroi numero 3.",
+            "4": "Parabéns! Seu Quirk é Endeavor, Você é um Heroi, mas o numero 2",
+            "5": "Parabéns!! Seu Quirk é  All Might, Você é Heroi numero 1."
+        }
+    }
+]

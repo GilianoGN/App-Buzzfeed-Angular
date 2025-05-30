@@ -1,0 +1,37 @@
+.select_tema {
+    margin-left: 10%;
+    width: 80%;
+    position: absolute;
+    z-index: -1;
+    display: flex;
+    flex-direction: column;    
+    justify-items: center;/**/
+    align-items: center;/**/
+}
+
+.btn-select {
+    background-color:rgba(137, 43, 226, 0.212);
+    border-radius: 8px;
+    border: 1px solid #18ab29;
+    width: 60%;
+    display:inline-block;
+    cursor: pointer;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px 31px;
+    text-decoration: none;
+    text-shadow: 0px 2px 0px #2f6627; 
+    margin-top: 5px;
+}
+
+.btn-select:hover {
+    background-color: #5cbf2a;
+}
+
+.btn-select:active {
+    position: relative;
+    top: 2px;
+    left: 2px;
+}

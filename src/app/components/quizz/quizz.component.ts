@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import  allQuizzesData from '../../assets/data/quizz_questions.json'
+import  allQuizzesData from '../../assets/data/quizz_questions.json';
+import { SelecttemaComponent } from '../selecttema/selecttema.component';
+import { OptionquizzComponent } from "../optionquizz/optionquizz.component";
 
 interface Option {
   id: number;
@@ -25,7 +27,7 @@ interface Quiz {
 @Component({
   selector: 'app-quizz',
   standalone: true,
-  imports: [ CommonModule ],
+  imports: [CommonModule, SelecttemaComponent, OptionquizzComponent],
   templateUrl: './quizz.component.html',
   styleUrl: './quizz.component.css'
 })
@@ -62,6 +64,15 @@ export class QuizzComponent implements OnInit{
       }
   }
 
+  private shuffleArray<T>(array: T[]): T[] {
+    const shuffled = [...array];
+    for (let i = shuffled.length -1; i > 0; i--) {
+      const j = Math.floor(Math.random() * (i + 1));
+      [shuffled[i], shuffled[j]] = [shuffled[j], shuffled[i]];
+    }
+    return shuffled
+  }
+
   selectQuiz(id: number): void {
     this.currentQuiz = this.allQuizzes.find(quiz => quiz.id === id);
     if (this.currentQuiz) {
@@ -74,6 +85,11 @@ export class QuizzComponent implements OnInit{
 
       this.questionIndex = 0;
       this.questionSelect = this.questions[this.questionIndex];
+
+      if (this.questionSelect && this.questionSelect.option) {
+        this.questionSelect.option = this.shuffleArray(this.questionSelect.option)
+      }
+
       this.questionMaxIndex = this.questions.length;
       this.answers = 0;
     } else {
@@ -91,6 +107,11 @@ export class QuizzComponent implements OnInit{
 
     if (this.questionMaxIndex > this.questionIndex) {
       this.questionSelect = this.questions[this.questionIndex];
+
+      if (this.questionSelect && this.questionSelect.option) {
+        this.questionSelect.option = this.shuffleArray(this.questionSelect.option);
+      }     
+
     } else {
       this.finished = true;
       const resultKey = Math.floor(this.answers);

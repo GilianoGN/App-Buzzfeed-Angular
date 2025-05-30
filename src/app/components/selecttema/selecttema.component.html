@@ -1,0 +1,9 @@
+<div class="select_tema">
+    <h1>Selecione um Tema!!</h1>
+    <button
+        *ngFor="let quiz of AllQuizz" 
+        class="btn-select"
+        (click)="this.selectQ(quiz.id)"
+        >{{quiz.tema}}
+    </button>
+</div>

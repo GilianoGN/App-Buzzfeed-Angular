@@ -6,20 +6,11 @@
         <img src="assets/imgs/logo.png" alt="">
         <h3 *ngIf="!selectTema">{{tema}}</h3>
     </div>
-
-    <div *ngIf="!finished && !selectTema" class="quizz_questions">
-        <h3>{{questionSelect?.question}}</h3>
-    </div>
-
-    <div *ngIf="!finished && !selectTema"class="quizz_options">
-        <button
-            *ngFor="let option of questionSelect?.option; let i = index"
-            class="btn-option"
-            (click)="playerChooce(option.alias)"
-            >{{option.name}}
-        </button>
-    </div>
-
+    <app-optionquizz
+            *ngIf="!finished && !selectTema"
+            [questionSel]="questionSelect"
+            (playerCh)="playerChooce($event)"
+    ></app-optionquizz>
     <div *ngIf="finished" class="quizz_results">
         <h1>O seu resultado é:</h1>
         <p>{{answersSelect |uppercase}}</p>
@@ -27,12 +18,8 @@
     </div>
 </div>
 
-<div *ngIf="selectTema" class="select_tema">
-    <h1>Selecione um Tema!!</h1>
-    <button
-        *ngFor="let quiz of allQuizzes" 
-        class="btn-select"
-        (click)="selectQuiz(quiz.id)"
-        >{{quiz.tema}}
-    </button>
-</div>
+<app-selecttema
+         *ngIf="selectTema"
+         [AllQuizz]="allQuizzes"
+         (themeSelected)="selectQuiz($event)"
+></app-selecttema>

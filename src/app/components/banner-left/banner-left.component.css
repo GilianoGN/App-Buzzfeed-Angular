@@ -1,0 +1,19 @@
+.bannerLeft_container {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    height: 100%;
+    left: 0px;
+    top: 0px;
+}
+
+.bannerLeft1 {
+    height: 50%;
+/*    border: 1px solid white;*/
+}
+
+.bannerLeft2 {
+    height: 50%;
+/*    border: 1px solid white;*/
+}

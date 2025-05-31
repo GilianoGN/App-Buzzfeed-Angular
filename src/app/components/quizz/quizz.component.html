@@ -1,9 +1,11 @@
 <div class="fundo_container">
     <img *ngIf="!selectTema" class = "fundo_img" src="assets/imgs/{{quizzImage}}" alt="">
 </div>
+<app-banner-left></app-banner-left>
+<app-banner-right></app-banner-right>
 <div class="quizz_container">
     <div class="quizz_logo">
-        <img src="assets/imgs/logo.png" alt="">
+        <img src="assets/imgs/Logo2.png" alt="">
         <h3 *ngIf="!selectTema">{{tema}}</h3>
     </div>
     <app-optionquizz

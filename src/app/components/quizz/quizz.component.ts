@@ -2,7 +2,9 @@ import { Component, OnInit } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import  allQuizzesData from '../../assets/data/quizz_questions.json';
 import { SelecttemaComponent } from '../selecttema/selecttema.component';
-import { OptionquizzComponent } from "../optionquizz/optionquizz.component";
+import { OptionquizzComponent } from '../optionquizz/optionquizz.component';
+import { BannerLeftComponent } from '../banner-left/banner-left.component';
+import { BannerRightComponent } from '../banner-right/banner-right.component';
 
 interface Option {
   id: number;
@@ -27,7 +29,7 @@ interface Quiz {
 @Component({
   selector: 'app-quizz',
   standalone: true,
-  imports: [CommonModule, SelecttemaComponent, OptionquizzComponent],
+  imports: [CommonModule, SelecttemaComponent, OptionquizzComponent, BannerLeftComponent, BannerRightComponent],
   templateUrl: './quizz.component.html',
   styleUrl: './quizz.component.css'
 })

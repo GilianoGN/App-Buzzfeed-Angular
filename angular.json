@@ -16,6 +16,7 @@
             "outputPath": "dist/app-buzzfeed-angular",
             "index": "src/index.html",
             "browser": "src/main.ts",
+            "baseHref": "/animequizz/",
             "polyfills": [
               "zone.js"
             ],
@@ -46,7 +47,8 @@
                   "maximumError": "8kB"
                 }
               ],
-              "outputHashing": "all"
+              "outputHashing": "all",
+              "baseHref": "/animequizz/"
             },
             "development": {
               "optimization": false,
@@ -93,7 +95,10 @@
           }
         },
         "deploy": {
-          "builder": "angular-cli-ghpages:deploy"
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "baseHref": "/animequizz/"
+          }
         }
       }
     }

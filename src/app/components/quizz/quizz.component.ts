@@ -35,19 +35,14 @@ interface Quiz {
 export class QuizzComponent implements OnInit{
   tema:string = "";
   quizzImage:string = "";
-
   questions:Question[] = [];
   questionSelect:Question | undefined;
-
   answers:number = 0;
   answersSelect:string = "";
-
   questionIndex:number = 0;
   questionMaxIndex:number = 0;
-
   selectTema:boolean = true;
   finished:boolean = false;
-
   allQuizzes: Quiz[] = [];
 
   private currentQuiz: Quiz | undefined;
@@ -57,6 +52,9 @@ export class QuizzComponent implements OnInit{
   ngOnInit(): void {
       if(allQuizzesData){
         this.allQuizzes = allQuizzesData as Quiz[];
+        if (this.allQuizzes) {
+          this.allQuizzes = this.shuffleArray(this.allQuizzes);
+        }
         this.selectTema = true;
         this.finished = false;
       } else {
@@ -78,18 +76,17 @@ export class QuizzComponent implements OnInit{
     if (this.currentQuiz) {
       this.selectTema = false;
       this.finished = false;
-
       this.tema = this.currentQuiz.tema;
       this.quizzImage = this.currentQuiz.image;
       this.questions = this.currentQuiz.questions;
-
+      if (this.questions) {
+        this.questions = this.shuffleArray(this.questions);
+      }
       this.questionIndex = 0;
       this.questionSelect = this.questions[this.questionIndex];
-
       if (this.questionSelect && this.questionSelect.option) {
-        this.questionSelect.option = this.shuffleArray(this.questionSelect.option)
+        this.questionSelect.option = this.shuffleArray(this.questionSelect.option);
       }
-
       this.questionMaxIndex = this.questions.length;
       this.answers = 0;
     } else {
@@ -104,14 +101,11 @@ export class QuizzComponent implements OnInit{
 
   nextStep(): void {
     this.questionIndex ++;
-
     if (this.questionMaxIndex > this.questionIndex) {
       this.questionSelect = this.questions[this.questionIndex];
-
       if (this.questionSelect && this.questionSelect.option) {
         this.questionSelect.option = this.shuffleArray(this.questionSelect.option);
       }     
-
     } else {
       this.finished = true;
       const resultKey = Math.floor(this.answers);

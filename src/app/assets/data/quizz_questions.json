@@ -271,7 +271,7 @@
                     { "id": 1, "name": "Escola Jujutsu de Tóquio", "alias": 0.5 },
                     { "id": 2, "name": "Escola Jujutsu de Quioto", "alias": 0 },
                     { "id": 3, "name": "Academia de Feiticeiros", "alias": 0 },
-                    { "id": 4, "name": "Academia Jujutso de Tóquio", "alias": 0 }
+                    { "id": 4, "name": "Academia Jujutsu de Tóquio", "alias": 0 }
                 ]
             },
             {
@@ -918,6 +918,236 @@
             "3": "Seu Quirk é Overhaul, o que o torna o Heroi numero 3.",
             "4": "Parabéns! Seu Quirk é Endeavor, Você é um Heroi, mas o numero 2",
             "5": "Parabéns!! Seu Quirk é  All Might, Você é Heroi numero 1."
+        }
+    },
+    {
+        "id": 9,
+        "tema": "Back Clover",
+        "image": "Fundo_BlackClover.jpg",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Qual é o nome do protagonista de Black Clover que sonha em se tornar o Rei Mago?",
+                "option": [
+                    { "id": 1, "name": "Yuno", "alias": 0 },
+                    { "id": 2, "name": "Asta", "alias": 0.5 },
+                    { "id": 3, "name": "Noelle", "alias": 0 },
+                    { "id": 4, "name": "Luck", "alias": 0 }
+                ]
+            },
+            {
+                "id": 2,
+                "question": "Qual é o tipo de grimório que Asta possui?",
+                "option": [
+                    { "id": 1, "name": "Trevo de quatro folhas", "alias": 0 },
+                    { "id": 2, "name": "Trevo de cinco folhas", "alias": 0.5 },
+                    { "id": 3, "name": "Trevo de três folhas", "alias": 0 },
+                    { "id": 4, "name": "Trevo de uma folha", "alias": 0 }
+                ]
+            },
+            {
+                "id": 3,
+                "question": "Qual dos Cavaleiros Mágicos abaixo é conhecido por sua magia de fogo e por ser o capitão do esquadrão Leões Carmesins?",
+                "option": [
+                    { "id": 1, "name": "Charlotte Roselei", "alias": 0 },
+                    { "id": 2, "name": "William Vangeance", "alias": 0 },
+                    { "id": 3, "name": "Fuegoleon Vermillion", "alias": 0.5 },
+                    { "id": 4, "name": "Yami Sukehiro", "alias": 0 }
+                ]
+            },
+            {
+                "id": 4,
+                "question": "Qual é o nome da irmã que cuidou de Asta e Yuno no orfanato da igreja?",
+                "option": [
+                    { "id": 1, "name": "Irmã Lily", "alias": 0.5 },
+                    { "id": 2, "name": "Irmã Theresa", "alias": 0 },
+                    { "id": 3, "name": "Irmã Marie", "alias": 0 },
+                    { "id": 4, "name": "Irmã Betty", "alias": 0 }
+                ]
+            },
+            {
+                "id": 5,
+                "question": "Qual esquadrão dos Cavaleiros Mágicos é conhecido por ter os membros mais excêntricos e indisciplinados, incluindo Asta?",
+                "option": [
+                    { "id": 1, "name": "Alvorecer Dourado", "alias": 0 },
+                    { "id": 2, "name": "Touros Negros", "alias": 0.5 },
+                    { "id": 3, "name": "Cervos Cobre", "alias": 0 },
+                    { "id": 4, "name": "Orcas Púrpura", "alias": 0 }
+                ]
+            },
+            {
+                "id": 6,
+                "question": "Qual é o nome do demônio que reside no grimório de Asta?",
+                "option": [
+                    { "id": 1, "name": "Zagred", "alias": 0 },
+                    { "id": 2, "name": "Liebe", "alias": 0.5 },
+                    { "id": 3, "name": "Licht", "alias": 0 },
+                    { "id": 4, "name": "Secre", "alias": 0 }
+                ]
+            },
+            {
+                "id": 7,
+                "question": "Qual tipo de magia Noelle Silva usa principalmente?",
+                "option": [
+                    { "id": 1, "name": "Magia de Vento", "alias": 0 },
+                    { "id": 2, "name": "Magia de Terra", "alias": 0 },
+                    { "id": 3, "name": "Magia de Água", "alias": 0.5 },
+                    { "id": 4, "name": "Magia de Relâmpago", "alias": 0 }
+                ]
+            },
+            {
+                "id": 8,
+                "question": "Quem é o Rei Mago atual no início da história de Black Clover?",
+                "option": [
+                    { "id": 1, "name": "Lumiere Silvamillion Clover", "alias": 0 },
+                    { "id": 2, "name": "Augustus Kira Clover XIII", "alias": 0 },
+                    { "id": 3, "name": "Julius Novachrono", "alias": 0.5 },
+                    { "id": 4, "name": "Damnatio Kira", "alias": 0 }
+                ]
+            },
+            {
+                "id": 9,
+                "question": "Qual é a principal motivação de Yuno para se tornar o Rei Mago?",
+                "option": [
+                    { "id": 1, "name": "Cumprir uma promessa feita a Asta", "alias": 0.5 },
+                    { "id": 2, "name": "Vingar seus pais", "alias": 0 },
+                    { "id": 3, "name": "Provar sua força", "alias": 0 },
+                    { "id": 4, "name": "Alcançar o poder absoluto", "alias": 0 }
+                ]
+            },
+            {
+                "id": 10,
+                "question": "Qual é o nome da capital do Reino Clover?",
+                "option": [
+                    { "id": 1, "name": "Clover", "alias": 0.5 },
+                    { "id": 2, "name": "Kikka", "alias": 0 },
+                    { "id": 3, "name": "Nean", "alias": 0 },
+                    { "id": 4, "name": "Hage", "alias": 0 }
+                ]
+            }
+        ],
+        "results": {
+            "0": "Errou tudo, né? O Asta sem grimório faria melhor! Tente de novo!",
+            "1": "Acertou algumas! Magia de conhecimento iniciante. Ainda há muito a aprender.",
+            "2": "Muito bom! Seu grimório está se abrindo. Continue assim!",
+            "3": "Sua magia de conhecimento está forte! Quase um capitão!",
+            "4": "Parabéns! Você é um gênio da magia! Seu conhecimento é digno do Rei Mago!",
+            "5": "Parabéns!! MUITO BEM! VOCÊ É O REI MAGO DO CONHECIMENTO! Ninguém te para!"
+        }
+    },
+    {
+        "id": 10,
+        "tema": "Boruto: Naruto Next Generations",
+        "image": "Fundo_Boruto.jpg",
+        "questions": [
+            {
+                "id": 1,
+                "question": "Quem é o protagonista de Boruto: Naruto Next Generations?",
+                "option": [
+                    { "id": 1, "name": "Sarada Uchiha", "alias": 0 },
+                    { "id": 2, "name": "Boruto Uzumaki", "alias": 0.5 },
+                    { "id": 3, "name": "Mitsuki", "alias": 0 },
+                    { "id": 4, "name": "Kawaki", "alias": 0 }
+                ]
+            },
+            {
+                "id": 2,
+                "question": "Qual é o nome da irmã mais nova de Boruto?",
+                "option": [
+                    { "id": 1, "name": "Hanabi Hyuga", "alias": 0 },
+                    { "id": 2, "name": "Himawari Uzumaki", "alias": 0.5 },
+                    { "id": 3, "name": "Sumire Kakei", "alias": 0 },
+                    { "id": 4, "name": "Chocho Akimichi", "alias": 0 }
+                ]
+            },
+            {
+                "id": 3,
+                "question": "Qual membro do Time 7 de Boruto é um clone sintético?",
+                "option": [
+                    { "id": 1, "name": "Boruto Uzumaki", "alias": 0 },
+                    { "id": 2, "name": "Sarada Uchiha", "alias": 0 },
+                    { "id": 3, "name": "Mitsuki", "alias": 0.5 },
+                    { "id": 4, "name": "Konohamaru Sarutobi", "alias": 0 }
+                ]
+            },
+            {
+                "id": 4,
+                "question": "Qual é a kekkei genkai ocular única que Boruto desenvolve?",
+                "option": [
+                    { "id": 1, "name": "Jougan", "alias": 0.5 },
+                    { "id": 2, "name": "Sharingan", "alias": 0 },
+                    { "id": 3, "name": "Byakugan", "alias": 0 },
+                    { "id": 4, "name": "Rinnegan", "alias": 0 }
+                ]
+            },
+            {
+                "id": 5,
+                "question": "Quem é a sensei do Time 7 de Boruto, antes de Konohamaru?",
+                "option": [
+                    { "id": 1, "name": "Sakura Haruno", "alias": 0 },
+                    { "id": 2, "name": "Moegi Kazamatsuri", "alias": 0.5 },
+                    { "id": 3, "name": "Hinata Hyuga", "alias": 0 },
+                    { "id": 4, "name": "Anko Mitarashi", "alias": 0 }
+                ]
+            },
+            {
+                "id": 6,
+                "question": "Qual é o nome do clã de vilões celestiais que se torna uma ameaça principal em Boruto?",
+                "option": [
+                    { "id": 1, "name": "Akatsuki", "alias": 0 },
+                    { "id": 2, "name": "Otsutsuki", "alias": 0.5 },
+                    { "id": 3, "name": "Hyuga", "alias": 0 },
+                    { "id": 4, "name": "Senju", "alias": 0 }
+                ]
+            },
+            {
+                "id": 7,
+                "question": "Quem é o pai de Sarada Uchiha?",
+                "option": [
+                    { "id": 1, "name": "Naruto Uzumaki", "alias": 0 },
+                    { "id": 2, "name": "Sai", "alias": 0 },
+                    { "id": 3, "name": "Sasuke Uchiha", "alias": 0.5 },
+                    { "id": 4, "name": "Kakashi Hatake", "alias": 0 }
+                ]
+            },
+            {
+                "id": 8,
+                "question": "Qual é o nome da organização que busca criar uma nova era ninja e é liderada por Jigen?",
+                "option": [
+                    { "id": 1, "name": "Akatsuki", "alias": 0 },
+                    { "id": 2, "name": "Raízes", "alias": 0 },
+                    { "id": 3, "name": "Kara", "alias": 0.5 },
+                    { "id": 4, "name": "Anbu", "alias": 0 }
+                ]
+            },
+            {
+                "id": 9,
+                "question": "Qual jutsu Boruto aprende com Sasuke Uchiha?",
+                "option": [
+                    { "id": 1, "name": "Rasengan", "alias": 0.5 },
+                    { "id": 2, "name": "Chidori", "alias": 0 },
+                    { "id": 3, "name": "Pássaros de Trovão (Chidori Nagashi)", "alias": 0 },
+                    { "id": 4, "name": "Kagemane no Jutsu", "alias": 0 }
+                ]
+            },
+            {
+                "id": 10,
+                "question": "Quem é o Sétimo Hokage da Vila Oculta da Folha durante a maior parte de Boruto?",
+                "option": [
+                    { "id": 1, "name": "Naruto Uzumaki", "alias": 0.5 },
+                    { "id": 2, "name": "Kakashi Hatake", "alias": 0 },
+                    { "id": 3, "name": "Tsunade", "alias": 0 },
+                    { "id": 4, "name": "Shikamaru Nara", "alias": 0 }
+                ]
+            }
+        ],
+        "results": {
+            "0": "Nem o Karma te salva! Errou tudo. Tente de novo!",
+            "1": "Acertou algumas. Ainda não é Chūnin, mas siga em frente!",
+            "2": "Muito bom! Digno de um ninja do Time 7. Siga seu nindō!",
+            "3": "Seu conhecimento brilha como o Jougan! Rank A!",
+            "4": "Parabéns! Mestre ninja do conhecimento. Até o Hokage aplaudiria!",
+            "5": "Parabéns!! VOCÊ É O HOKAGE DO CONHECIMENTO! Imbatível!"
         }
     }
 ]

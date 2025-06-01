@@ -1,12 +1,19 @@
 .select_tema {
-    margin-left: 10%;
+    margin: auto;
     width: 80%;
-    position: absolute;
-    z-index: -1;
     display: flex;
     flex-direction: column;    
     justify-items: center;/**/
     align-items: center;/**/
+    padding-top: 50px;
+}
+
+.select_tema > h1 {
+    font-size: 3em;
+    color: white;
+    text-shadow: 2px 2px 0px #2f6627;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 .btn-select {
@@ -23,7 +30,8 @@
     padding: 10px 31px;
     text-decoration: none;
     text-shadow: 0px 2px 0px #2f6627; 
-    margin-top: 5px;
+    margin-top: 15px;
+    transition: background-color 0.3s ease;
 }
 
 .btn-select:hover {
@@ -34,4 +42,63 @@
     position: relative;
     top: 2px;
     left: 2px;
+}
+
+/* Media Queries para Responsividade */
+
+@media (max-width: 768px) {
+    .select_tema {
+        width: 95%;
+        padding-top: 20px;
+    }
+
+    .select_tema h1 {
+        font-size: 2.2em;
+        margin-bottom: 20px;
+    }
+
+    .btn-select {
+        width: 80%; 
+        font-size: 18px;
+        padding: 12px 25px;
+        margin-top: 10px;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .select_tema {
+        padding-top: 10px;
+    }
+
+    .select_tema h1 {
+        font-size: 1.8em;
+        margin-bottom: 15px;
+    }
+
+    .btn-select {
+        width: 90%;
+        font-size: 16px;
+        padding: 10px 20px;
+        margin-top: 8px;
+    }
+}
+
+@media (orientation: landscape) and (max-width: 992px) {
+    .select_tema {
+        width: 70%; 
+        padding-top: 10px; 
+    }
+
+    .select_tema h1 {
+        font-size: 2em; 
+        margin-bottom: 15px;
+    }
+
+    .btn-select {
+        width: 70%; 
+        font-size: 18px;
+        padding: 10px 25px;
+        margin-top: 10px;
+    }
 }

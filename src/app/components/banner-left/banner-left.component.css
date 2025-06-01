@@ -1,19 +1,37 @@
 .bannerLeft_container {
     position: fixed;
-    display: flex;
+    display: none;
     flex-direction: column;
     width: 10%;
     height: 100%;
     left: 0px;
     top: 0px;
+    z-index: 99;
+    background-color: rgba (0, 0, 0, 0.8);
+    color: white;
+    text-align: center;
+    font-size: 1.2em;
+    padding-top: 50px;
 }
 
 .bannerLeft1 {
     height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 /*    border: 1px solid white;*/
 }
 
 .bannerLeft2 {
     height: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 /*    border: 1px solid white;*/
+}
+
+@media (min-width:  1024px) {
+    .bannerLeft_container {
+        display: flex;
+    }
 }
